@@ -1,5 +1,5 @@
 import transformers
-model_id = "meta-llama/Llama-3.2-1B-Instruct"
+model_id = "Qwen/Qwen2.5-3B-Instruct"
 
 pipe = transformers.pipeline(
     "text-generation",
