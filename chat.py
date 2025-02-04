@@ -1,5 +1,5 @@
 import transformers
-model_id = "tiiuae/Falcon3-1B-Instruct"
+model_id = "meta-llama/Llama-3.2-1B-Instruct"
 
 pipe = transformers.pipeline(
     "text-generation",
