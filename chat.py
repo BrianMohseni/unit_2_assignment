@@ -14,9 +14,15 @@ messages = [
 
 while True:
     prompt = input("prompt: ")
+
+    if prompt == "exit":
+        break
     messages.append(prompt)
     outputs = pipe(
         messages,
         max_new_tokens=256,
     )
+
+    print(outputs)
+    
     messages.append(outputs)
