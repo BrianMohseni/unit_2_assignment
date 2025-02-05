@@ -17,7 +17,7 @@ while True:
     if prompt == "exit":
         break
 
-    prompt = {"role": "user", "content"c: prompt}
+    prompt = {"role": "user", "content": prompt}
     
     messages.append(prompt)
     outputs = pipe(
